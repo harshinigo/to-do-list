@@ -1,0 +1,73 @@
+/* use the following color only */
+/* Pinky: #fbe3e8
+Blue Greeny: #5cbdb9
+Teeny Greeny: #ebf6f5 
+
+*/
+
+/* https://hookagency.com/blog/website-color-schemes-2020/
+https://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-schemes-tools.html */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fbe3e8;
+  color: #5cbdb9;
+  text-align: center;
+}
+h1 {
+  margin: 30px;
+}
+
+.main {
+  display: grid;
+  align-content: center;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  background-color: #ffffff;
+  margin: 20px;
+  height: 80vh;
+}
+.openToDo {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.secondMain {
+}
+.fa-solid {
+  float: right;
+}
+
+#inputField {
+  width: 300px;
+  height: 46px;
+  border-width: 0;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+#addToDo {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.to-dos {
+  margin-top: 25px;
+}

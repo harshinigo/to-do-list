@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    ;
+    <title>To Do List</title>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Tool Shop</h1>
+    </header>
+    <section class="main">
+      <article>
+        <header>
+          <h2 id="openToDo">To Do List</h2>
+        </header>
+        <div id="toDoList" class="container">
+          <i id="hide" class="fa-solid fa-circle-xmark"></i>
+          <input id="inputField" type="text" /><button id="addToDo">+</button>
+          <div class="to-dos" id="toDoContainer"></div>
+        </div>
+      </article>
+      <div class="secondMain">
+        <article>
+          <header>
+            <h2>Import notes</h2>
+          </header>
+          <div id="importNotes" class="hide" class="container"></div>
+        </article>
+
+        <article>
+          <header>
+            <h2>Stop Watch</h2>
+          </header>
+          <div id="stopWatch" class="hide" class="container"></div>
+        </article>
+        <article>
+          <header>
+            <h2>Calci</h2>
+          </header>
+          <div id="Calci" class="hide" class="container"></div>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
